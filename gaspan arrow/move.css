@@ -1,0 +1,62 @@
+#box {
+    border: 5px solid purple;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 70px;
+}
+#circle {
+    border-radius: 50%;
+    border: 5px solid purple;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: 25px;
+    background-color:;
+}
+.key {
+    height: 70px;
+    width: 70px;
+    border: 3px solid black;
+    position: absolute;
+    font-size: 60px;
+    line-height: 60px;
+    color:purple;
+    background-color:pink;
+}
+.up {
+    top: 145px;
+    left: 193px;
+}
+.down {
+    top: 215px;
+    left: 193px;
+}
+.left {
+    top: 215px;
+    left: 118px;
+}
+.right {
+    top: 215px;
+    right: 110px;
+}
+.up:before {
+    content: '\002191';
+}
+.down:before {
+    content: '\002193';
+}
+.left:before {
+    content: '\002190';
+}
+.right:before {
+    content: '\002192';
+}
+#background{
+background-image:linear-gradient(-90deg, #E58C8A, #EEC0C6
+);
+}
+img {
+    position: absolute;
+    left: 530px;
+}
